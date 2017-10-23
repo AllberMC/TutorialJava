@@ -1,0 +1,24 @@
+package paquete;
+
+public class MainWhile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x=0;
+		/*while(x <= 10){
+			System.out.println("El valor de X es: " + x);
+			x = x +2 ;//incrementamos la var x de 2 en 2 hasta que no se cumpla la condicion
+		}*/
+		/******************************************************/
+		boolean cond = true;
+		while(cond){
+			System.out.println("El valor de X es: " + x);
+			x = x +2 ;
+			
+			if(x > 8){
+				cond =false;
+			}
+		}
+	}
+
+}
