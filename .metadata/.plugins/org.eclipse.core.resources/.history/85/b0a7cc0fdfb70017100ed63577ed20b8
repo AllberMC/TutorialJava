@@ -1,0 +1,19 @@
+package paquete;
+
+public class MainCondicionales {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int  var = 12;
+		
+		if(var > 5){
+			
+			System.out.println("La variable es mayor 5");
+		}
+		else{
+			
+			System.out.println("La variable NO es mayor 5");
+		}
+	}
+
+}
