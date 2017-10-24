@@ -1,0 +1,17 @@
+package paquete;
+import paquete.Pelota; //Se necesita para poder usar nuestra clase pelota como un objeto en el MAIN
+
+
+public class MainObject {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//CODIGO
+		Pelota p; //declaracion de nuestro objeto pelota
+		p = new Pelota(); //Inicializamos nuestro objeto
+		
+		System.out.println("El peso de la pelota es: "+ p.get_Peso());//asi llamamos a un metodo de nuestra clase Pelota para poder usarlo 
+		
+	}
+
+}

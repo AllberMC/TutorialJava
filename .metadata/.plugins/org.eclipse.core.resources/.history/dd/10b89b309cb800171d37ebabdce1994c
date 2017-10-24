@@ -1,0 +1,13 @@
+package paquete;
+
+public class Pelota {
+	//variables nativas de la clase 
+	int peso;
+	float radio;
+	
+	//Construcotres de la clase, es decir del objeto
+	public Pelota(){
+		peso = 250;
+		radio=144;
+	}
+}
