@@ -1,0 +1,20 @@
+package paquete;
+
+public class MainSwitchCase {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x=1;
+		switch(x){
+			case 0:{
+				System.out.println("Estamos en la opc 0");
+				break;
+			}
+			case 1: {
+				System.out.println("Estamos en la opc 1");
+				break;
+			}
+		}
+	}
+
+}

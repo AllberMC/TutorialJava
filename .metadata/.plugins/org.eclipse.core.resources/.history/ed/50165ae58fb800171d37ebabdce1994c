@@ -1,0 +1,19 @@
+package paquete;
+
+public class MainFibo {
+
+	public static void main(String[] args) {
+		//Algoritmos ciclicos
+		//Serie de Fibonacci
+		//Serie de nº impares
+		
+		/******Serie nº impares******/
+		for(int i = 0; i <= 100; i++){
+			if(i % 2 != 0){
+				System.out.println("El nº impar es: "+ i);
+			}
+		}
+		
+	}
+
+}
