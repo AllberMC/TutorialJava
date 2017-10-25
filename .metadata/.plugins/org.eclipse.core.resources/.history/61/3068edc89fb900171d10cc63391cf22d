@@ -1,0 +1,19 @@
+package paquete;
+
+public class Main {
+	/**Vamos a aprender
+	 * @param args
+	 * leer desde el teclado
+	 * concat()-->concatenar
+	 * toUpperCase()-->pasarlo todo a mayus
+	 * toLowerCase()-->pasarlo todo a minus
+	 * lenght()-->
+	 * Convertir ar numericas a string y viceversa
+	 */
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

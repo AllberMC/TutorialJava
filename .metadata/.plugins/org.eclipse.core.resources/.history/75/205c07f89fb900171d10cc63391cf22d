@@ -1,0 +1,30 @@
+package paquete;
+import java.io.*; //libreria que se utiliza para la E/S de informacion
+
+public class Main {
+	/**Vamos a aprender
+	 * @param args
+	 * leer desde el teclado
+	 * concat()-->concatenar
+	 * toUpperCase()-->pasarlo todo a mayus
+	 * toLowerCase()-->pasarlo todo a minus
+	 * lenght()-->obtener num de letras 
+	 * Convertir var numericas a string y viceversa
+	 */
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String texto = "";
+		
+		InputStreamReader in = new InputStreamReader(System.in);//Estamos un canal de datos que recibe informacion desde el exterior
+		BufferedReader buffer = new BufferedReader(in); //Espacio de memoria que almacena la informacion obtenida del exterior
+		
+		//El try catch es porque aveces se pueden suceder errores en la captura
+		try{
+			texto = buffer.readLine():
+		}catch(IOException e){};
+		
+		System.out.println(texto);
+	}
+
+}
