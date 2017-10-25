@@ -1,0 +1,4 @@
+Esto es la primera line de un archivo txt
+Esto es la segunda line de un archivo txt
+Esto es la tercera line de un archivo txt
+Esto es la cuarta line de un archivo txt
