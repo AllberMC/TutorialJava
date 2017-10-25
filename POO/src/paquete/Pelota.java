@@ -4,6 +4,7 @@ public class Pelota {
 	//variables nativas de la clase 
 	int peso;
 	float radio;
+	String nombre;
 	
 	//Construcotres de la clase, es decir del objeto
 	public Pelota(){ //constructor por defecto
@@ -39,5 +40,28 @@ public class Pelota {
 	
 	public void CogerPelota(){
 		System.out.println("Atrapaste la pelota");
+	}
+}
+
+//Nueva clase 
+class PelotaFutbol extends Pelota{ //Clase hija de la clase padre Pelota
+	public PelotaFutbol(){ //Constructor
+		this.peso = 50;
+		this.radio = 20;
+	}
+	
+	public void marca(){
+		System.out.println("La marca de la pelota es NIKE");
+	}
+}
+
+class PelotaBaloncesto extends Pelota{
+	
+	public PelotaBaloncesto(){
+		this.peso = 60;
+	}
+	
+	public String nombre(){
+		return this.nombre;
 	}
 }

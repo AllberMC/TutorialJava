@@ -7,16 +7,12 @@ public class MainObject {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//CODIGO
-		Pelota p; //declaracion de nuestro objeto pelota
-		Pelota p2;//declaracion de un nuevo objeto
-		p = new Pelota(); //Inicializamos nuestro objeto
-		p2 = new Pelota(600,450); //Inicializacion del nuevo objeto
-		
-		System.out.println("El peso de la pelota es: "+ p.get_Peso());//asi llamamos a un metodo de nuestra clase Pelota para poder usarlo 
-	
-		System.out.println("El peso de la segunda pelota es: "+ p2.get_Peso());
-		
-		p.set_Peso(160);//Cambiando el valor del peso 
+		PelotaFutbol p = new PelotaFutbol(); //Objeto diferente al de la clase pelota
+		PelotaBaloncesto pb = new PelotaBaloncesto();
+		p.CogerPelota();
+		p.patearPelota();
+		p.marca();
+		pb.nombre();
 	}
 
 }
