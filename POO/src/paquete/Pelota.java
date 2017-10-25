@@ -43,7 +43,7 @@ public class Pelota {
 	}
 }
 
-//Nueva clase 
+//Nueva clase que hereda de pelota
 class PelotaFutbol extends Pelota{ //Clase hija de la clase padre Pelota
 	public PelotaFutbol(){ //Constructor
 		this.peso = 50;
