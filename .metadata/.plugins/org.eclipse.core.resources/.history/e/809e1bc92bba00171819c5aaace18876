@@ -1,0 +1,18 @@
+package paquete;
+public class Main {
+	/**Vamos a ver
+	 * 
+	 * @param args
+	 * push --> introducimos un dato
+	 * pop --> quitar el ultimo dato que se introdjo
+	 * peek --> Para ver cual es el ultimo dato que se introdujo en la pila
+	 * empty --> Para ver si la pila esta vacia o no
+	 */
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Estructura LIFO --> Last in first out
+		Stack pila = new Stack();
+	}
+
+}

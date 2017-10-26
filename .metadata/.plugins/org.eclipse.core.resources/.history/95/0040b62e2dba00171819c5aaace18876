@@ -1,0 +1,33 @@
+package paquete;
+import java.util.Stack;
+
+public class Main {
+	/**Vamos a ver
+	 * push()--> para introducir de uno en uno los objetos
+	 * pop()--> para obtener el ultimo objeto y eliminarlo
+	 * peek()--> para ver el ultimo objeto introducido
+	 * empty()--> para saber si la lista esta vacía o no
+	 * @param args
+	 */
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//LIFO --> last in first out
+		Stack pila = new Stack();
+		pila.push(50);
+		pila.push("HOLA MUNDO");
+		pila.push(17);
+		pila.push(3);
+		pila.push("Alberto");
+		//solo se puede obtener el ultimo valor
+		//peek para ve, y el metodo pop para obtener y que a la vez lo elimina.
+	
+		System.out.println("El ultimo elemento de la lista es: " + pila.peek());
+		
+		//Rutina para obtener el ultimo valor e ir vaciando la pila
+		while(pila.empty() == false){ //Mientras la pila NO este vacia
+			System.out.println(pila.pop());
+		}
+	}
+
+}
