@@ -1,0 +1,19 @@
+package paquete;
+import java.util.LinkedList;
+
+
+public class MainList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LinkedList lista = new LinkedList();
+		
+		lista.add("Palabra"); //Añadimos el dato donde estemos situado
+		lista.add(5); //El dato puede ser de cualquier tipo y se pueden mezclar
+		lista.add(2, 24); //Este metodo add nos permite guardar un dato en la lista en la pos que queramos
+		
+		System.out.println("El tamaño de la lista es: " + lista.size()); //con size obtenemos el tamaño total que vamos obteniendo de la lista
+		System.out.println(lista.get(1)); //El metodo get nos permite obtener el dato pasandole la pos de la que queremos obtenerlo
+	}
+
+}

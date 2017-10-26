@@ -1,0 +1,12 @@
+package paquete;
+import java.util.LinkedList
+
+
+public class MainList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
