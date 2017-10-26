@@ -1,10 +1,7 @@
 package paquete;
 import java.io.*;
-import java.io.BufferedReader;
-import java.io.IOException;
 
 public class Texto {
-	
 	public void leer(String nombreArchivo){
 		
 		try{

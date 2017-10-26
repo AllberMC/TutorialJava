@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Texto.java&apos; to &apos;paquete.Main.java&apos;&#x0D;&#x0A;- Original project: &apos;ReadText&apos;&#x0D;&#x0A;- Destination element: &apos;paquete.Main.java&apos;&#x0D;&#x0A;- Original element: &apos;paquete.Texto.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=WriteText/src&lt;paquete{Main.java" element1="/src&lt;paquete{Texto.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1509006032182" units="1" version="1.0"/>
+</session>
